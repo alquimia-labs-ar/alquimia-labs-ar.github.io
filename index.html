@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AlquimIA Labs: historias de ficción en video.">
+  <meta name="theme-color" content="#101c1a">
+  <title>AlquimIA Labs — Historias que despiertan mundos</title>
+  <style>
+    :root{color-scheme:light;--ink:#182320;--muted:#64716c;--paper:#f7f7f2;--green:#174b3c;--mint:#dce9df;--line:#dfe4dc;--gold:#c29a5b}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--green)}.wrap{width:min(1080px,calc(100% - 44px));margin:auto}
+    header{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .brand{font-size:1rem;font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);text-decoration:none}.brand span{color:var(--gold)}
+    nav{display:flex;gap:26px}nav a{font-size:.91rem;text-decoration:none;color:var(--muted)}nav a:hover,.text-link:hover{color:var(--green);text-decoration:underline}
+    .hero{padding:112px 0 102px;max-width:790px}.eyebrow{color:var(--green);font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+    h1{font:500 clamp(3rem,8vw,6.4rem)/.99 Georgia,"Times New Roman",serif;letter-spacing:-.055em;margin:23px 0 27px}
+    .hero p{font-size:1.2rem;color:var(--muted);max-width:620px;margin:0}
+    .rule{height:1px;background:var(--line)}.section{padding:67px 0 74px}.section h2{font:500 2rem Georgia,serif;margin:0 0 14px}
+    .intro{color:var(--muted);max-width:700px;margin:0 0 32px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#fff;border:1px solid var(--line);padding:25px 27px}
+    .card .tag{font-size:.73rem;letter-spacing:.14em;text-transform:uppercase;color:var(--green);font-weight:700}.card h3{font:500 1.45rem Georgia,serif;margin:12px 0}.card p{margin:0;color:var(--muted)}
+    .contact{background:var(--mint);padding:36px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px}.contact h2{font:500 1.7rem Georgia,serif;margin:0 0 5px}.contact p{margin:0;color:var(--muted)}.button{display:inline-block;padding:12px 17px;background:var(--green);color:white;text-decoration:none;font-size:.9rem;white-space:nowrap}
+    footer{padding:28px 0 40px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:.85rem}footer a{color:inherit;margin-left:15px}
+    @media(max-width:650px){.wrap{width:min(100% - 32px,1080px)}header{height:auto;padding:20px 0;align-items:flex-start;gap:20px}nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}nav a{font-size:.82rem}.hero{padding:78px 0 70px}.grid{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column;padding:28px}.section{padding:52px 0}footer{flex-direction:column;gap:8px}footer a{margin:0 12px 0 0}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <a class="brand" href="index.html" aria-label="AlquimIA Labs, inicio">Alquim<span>IA</span> Labs</a>
+    <nav aria-label="Navegación principal"><a href="#proyecto">El proyecto</a><a href="privacidad.html">Privacidad</a><a href="condiciones.html">Condiciones</a></nav>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="eyebrow">Laboratorio de historias</div>
+      <h1>Imaginamos<br>otros mundos.</h1>
+      <p>AlquimIA Labs es un canal de historias de ficción en video. Creamos relatos para explorar ideas, personajes y universos posibles.</p>
+    </section>
+    <div class="rule"></div>
+    <section class="section wrap" id="proyecto">
+      <div class="eyebrow">Detrás de escena</div>
+      <h2>Una producción independiente</h2>
+      <p class="intro">Para cuidar nuestros archivos de trabajo y administrar el canal, usamos herramientas internas conectadas a servicios de Google. Solo las opera AlquimIA Labs.</p>
+      <div class="grid">
+        <article class="card"><div class="tag">Copias de respaldo</div><h3>rclone</h3><p>Guarda y lee las copias de respaldo de los archivos propios de la empresa en su Google Drive.</p></article>
+        <article class="card"><div class="tag">Canal de video</div><h3>YouTube</h3><p>Sube videos en privado al canal propio “AlquimIA” y consulta sus estadísticas para gestionar la publicación.</p></article>
+      </div>
+    </section>
+    <section class="wrap contact">
+      <div><h2>Hablemos</h2><p>Consultas sobre el proyecto, privacidad o uso de las herramientas.</p></div>
+      <a class="button" href="mailto:alquimia.labs.ar@gmail.com">alquimia.labs.ar@gmail.com</a>
+    </section>
+  </main>
+  <footer class="wrap"><span>© 2026 AlquimIA Labs</span><span><a href="privacidad.html">Política de privacidad</a><a href="condiciones.html">Condiciones de uso</a></span></footer>
+</body>
+</html>
